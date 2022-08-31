@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>JUEGO AHORCADITO</title>
+  </head>
+  <body>
+    <section>
+      <input type="text" id="letra" placeholder="Escribe la letra"
+      > <input type="button" id="boton" value="Comprobar"><br>
+      <div id="frase">
+      
+      </div>
+      <div id="vida">
+        El número de vidas que quedan son: 4
+      </div>
+    </section>
+    <script type="text/javascript">
+      let palabras = Array("sued","jakelyn","sued jakelyn");
+      let palabraOculta = "";
+      let PalabraAdivinar = "";
+      let vidas = 4;
+      iniciar();
+      
+      function iniciar(){
+        palabras[Math.floor(Math.random()*palabras.length)];
+        console.log(palabraOculta)
+      }
+    </script>
+    <div id="root"></div>
+  </body>
+</html>
+
+
+  
